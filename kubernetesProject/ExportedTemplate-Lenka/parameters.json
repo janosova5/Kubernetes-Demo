@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "managedClusters_Lenka_Cluster_name": {
+            "value": null
+        },
+        "publicIPAddresses_008b8cb8_8e22_420c_a2b3_bc9620d11eb9_externalid": {
+            "value": null
+        },
+        "userAssignedIdentities_Lenka_Cluster_agentpool_externalid": {
+            "value": null
+        }
+    }
+}

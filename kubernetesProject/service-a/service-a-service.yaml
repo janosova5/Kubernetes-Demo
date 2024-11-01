@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-a
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-resource-group: "MC_Lenka_Lenka-Cluster_polandcentral"
+spec:
+  selector:
+    app: service-a
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
+  loadBalancerIP: 74.248.137.135
